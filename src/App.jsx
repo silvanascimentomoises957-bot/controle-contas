@@ -408,7 +408,7 @@ const AuthScreen = ({ onLogin }) => {
 
   return (
     <div style={{ minHeight: "100vh", display: "flex", background: "linear-gradient(135deg, #f0f4ff 0%, #e8f4fd 100%)" }}>
-      <div className="auth-left" style={{ flex: 1, background: `linear-gradient(135deg, ${C.brand} 0%, ${C.brandDark} 100%)`, alignItems: "center", justifyContent: "center", padding: 48, flexDirection: "column", gap: 24 }}>
+      <div className="auth-left" style={{ background: `linear-gradient(135deg, ${C.brand} 0%, ${C.brandDark} 100%)`, alignItems: "center", justifyContent: "center", padding: 48, flexDirection: "column", gap: 24 }}>
         <Logo size={48} white />
         <div style={{ color: C.white, textAlign: "center" }}>
           <h1 style={{ fontSize: 32, fontWeight: 800, margin: "0 0 12px" }}>ContasFácil</h1>
